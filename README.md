@@ -8,6 +8,11 @@ Installation
 - Install chromedriver through npm
 - Move the scripts and .side files to a convenient directory
 
+Setup
+
+- Edit the login.side file to put your own login credentials
+  (Search for "Your Username" and "Your Password" text in the file and replace with desired username and password)
+
 Operation
 
 - Run "bash loginScript.sh" to login
