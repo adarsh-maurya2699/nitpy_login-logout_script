@@ -66,7 +66,7 @@
         ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div/div/input", "xpath:idRelative"],
         ["xpath=//div/input", "xpath:position"]
       ],
-      "value": "CS17B1003"
+      "value": "Your Username"
     }, {
       "id": "e4e57dca-dfd1-47d3-a1dd-955d1ec30abd",
       "comment": "",
@@ -80,7 +80,7 @@
         ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/input", "xpath:position"]
       ],
-      "value": "nitpy@123"
+      "value": "Your Password"
     }, {
       "id": "bf1af36e-1b13-4799-ad2e-feb1bd673482",
       "comment": "",
