@@ -1,0 +1,41 @@
+{
+  "id": "ec3e5d99-9c6c-41c4-8886-12eca4994698",
+  "version": "2.0",
+  "name": "logout",
+  "url": "https://scg.ruckuswireless.com:9998/SubscriberPortal/login?",
+  "tests": [{
+    "id": "adb1972c-7a3a-4151-89d4-55f431ddf395",
+    "name": "logout",
+    "commands": [{
+      "id": "33bbe403-74aa-4908-b676-33800ffd3281",
+      "comment": "",
+      "command": "open",
+      "target": "https://scg.ruckuswireless.com:9998/SubscriberPortal/login?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7144e36-0c38-4328-8785-ecc1c30b5d4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=signOutButton",
+      "targets": [
+        ["id=signOutButton", "id"],
+        ["css=#signOutButton", "css:finder"],
+        ["xpath=//input[@id='signOutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginPageShow']/div[3]/div/div/form/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dbb4b9ae-7611-434d-ad11-c7080ada45b6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["adb1972c-7a3a-4151-89d4-55f431ddf395"]
+  }],
+  "urls": [],
+  "plugins": []
+}

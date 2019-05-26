@@ -1,0 +1,110 @@
+{
+  "id": "0859615f-0c79-450f-92f5-1fea5317ee06",
+  "version": "2.0",
+  "name": "login",
+  "url": "https://scg.ruckuswireless.com:9998/SubscriberPortal/login?",
+  "tests": [{
+    "id": "4dbe8648-fd65-4fb3-a188-a52b5336b4a9",
+    "name": "login",
+    "commands": [{
+      "id": "fa60f577-1984-4c53-81c0-d10f4eef934b",
+      "comment": "",
+      "command": "open",
+      "target": "/SubscriberPortal/login?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc2faeeb-5d29-4947-ad25-462cae1bb14b",
+      "comment": "",
+      "command": "click",
+      "target": "css=label",
+      "targets": [
+        ["css=label", "css:finder"],
+        ["xpath=//div[@id='termsAndConditions']/form/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'I have read and accept the Terms and Conditions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d77fd33-7924-450f-816e-8c2264d89de8",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnNext",
+      "targets": [
+        ["id=btnNext", "id"],
+        ["css=#btnNext", "css:finder"],
+        ["xpath=//button[@id='btnNext']", "xpath:attributes"],
+        ["xpath=//div[@id='termsAndConditions']/form/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bde509-b5db-4015-9960-29874174b10b",
+      "comment": "",
+      "command": "click",
+      "target": "id=UE-Username",
+      "targets": [
+        ["id=UE-Username", "id"],
+        ["name=UE-Username", "name"],
+        ["css=#UE-Username", "css:finder"],
+        ["xpath=//input[@id='UE-Username']", "xpath:attributes"],
+        ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea834443-21bf-4478-a968-17a690644e65",
+      "comment": "",
+      "command": "type",
+      "target": "id=UE-Username",
+      "targets": [
+        ["id=UE-Username", "id"],
+        ["name=UE-Username", "name"],
+        ["css=#UE-Username", "css:finder"],
+        ["xpath=//input[@id='UE-Username']", "xpath:attributes"],
+        ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "CS17B1003"
+    }, {
+      "id": "e4e57dca-dfd1-47d3-a1dd-955d1ec30abd",
+      "comment": "",
+      "command": "type",
+      "target": "id=UE-Password",
+      "targets": [
+        ["id=UE-Password", "id"],
+        ["name=UE-Password", "name"],
+        ["css=#UE-Password", "css:finder"],
+        ["xpath=//input[@id='UE-Password']", "xpath:attributes"],
+        ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nitpy@123"
+    }, {
+      "id": "bf1af36e-1b13-4799-ad2e-feb1bd673482",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInButton",
+      "targets": [
+        ["id=signInButton", "id"],
+        ["css=#signInButton", "css:finder"],
+        ["xpath=//button[@id='signInButton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginPage']/div[4]/div/div/form/fieldset/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0188e8b9-071c-43cc-b5ee-56a5024a2ba9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4dbe8648-fd65-4fb3-a188-a52b5336b4a9"]
+  }],
+  "urls": ["https://scg.ruckuswireless.com:9998/", "https://scg.ruckuswireless.com:9998/SubscriberPortal/login?"],
+  "plugins": []
+}
