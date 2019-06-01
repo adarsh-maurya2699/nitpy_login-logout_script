@@ -1,5 +1,5 @@
 # nitpy_login-logout_automation
-Small & Lightweight Login and Logout Scripts for personal use
+Small & Lightweight Login and Logout Scripts for Wifi use in NITPy
 
 ----------------------------------------------------------------------------------------------------------------
 
