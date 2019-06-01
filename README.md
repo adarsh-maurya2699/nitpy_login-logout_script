@@ -1,5 +1,7 @@
-# nitpy_loginScript
-Small & Lightweight Login Script for personal use( logging in and logging out of BOH using my personal account)
+# nitpy_login-logout_automation
+Small & Lightweight Login and Logout Scripts for personal use
+
+----------------------------------------------------------------------------------------------------------------
 
 Installation
 
@@ -16,5 +18,8 @@ Setup
 
 Operation
 
+- Open a Terminal in the directory where the files have been moved to
 - Run "bash loginScript.sh" to login
 - Run "bash logoutScript.sh" to logout
+
+*Note :- The scripts can be modified for execution in Mozilla Firefox, after installing "geckodriver" instead of "chromedriver"
