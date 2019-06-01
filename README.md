@@ -1,8 +1,9 @@
 # nitpy_loginScript
-Small Login Script for personal use( logging in and logging out of BOH using my personal account)
+Small & Lightweight Login Script for personal use( logging in and logging out of BOH using my personal account)
 
 Installation
 
+- Install latest Chrome Browser
 - Install npm
 - Install selenium-side-runner through npm
 - Install chromedriver through npm
